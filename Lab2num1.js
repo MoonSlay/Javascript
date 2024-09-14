@@ -30,6 +30,8 @@ function displayResult() {
     // Calculate the age
     let age = calculateAge(birthYear);
 
+
+    console.log("\nResult:");
     // Display the formatted result
     console.log(`Your name is ${trimmedFullName} and its reversed version is ${reversedName}. Your age is ${age} years old.`);
 }
